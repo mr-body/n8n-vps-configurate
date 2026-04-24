@@ -1,0 +1,12 @@
+# ignorar conteúdo mas manter estrutura
+cert/*
+!cert/.gitkeep
+
+n8n_data/*
+!n8n_data/.gitkeep
+
+# extras seguros
+*.sqlite
+*.log
+*.pem
+*.key
